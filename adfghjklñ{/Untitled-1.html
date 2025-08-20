@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Ángel Villabona - Desarrollador Full Stack</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Elementos flotantes de fondo -->
+    <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
+    <div class="container">
+        <div class="cv-container">
+            <!-- Header Section -->
+            <div class="header-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 text-center mb-4 mb-md-0">
+                            <div class="profile-img mx-auto">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h1 class="display-4 fw-bold mb-2" id="title-text">Luis Ángel Villabona</h1>
+                            <h3 class="h4 mb-3 opacity-90">Desarrollador Full Stack</h3>
+                            <p class="lead mb-4 opacity-80">
+                                Desarrollador apasionado con 5 años de experiencia creando aplicaciones web modernas 
+                                y escalables. Especializado en React, Node.js y tecnologías cloud.
+                            </p>
+                            <button class="btn btn-download" id="download-btn">
+                                <i class="fas fa-download me-2"></i>
+                                Descargar CV
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container py-5">
+                <div class="row">
+                    <!-- Columna Izquierda -->
+                    <div class="col-lg-4 mb-5">
+                        <!-- Información de Contacto -->
+                        <div class="card card-custom mb-4">
+                            <div class="card-body">
+                                <h4 class="section-title">Contacto</h4>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span class="ms-3">luis.villabona@email.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span class="ms-3">+57 300 123 4567</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span class="ms-3">Bogotá, Colombia</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span class="ms-3">28 años</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-globe"></i>
+                                    <span class="ms-3">luisvillabona.dev</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Habilidades -->
+                        <div class="card card-custom mb-4" id="skills-card">
+                            <div class="card-body">
+                                <h4 class="section-title">Habilidades Técnicas</h4>
+                                <div class="skill-item">
+                                    <div class="skill-name d-flex justify-content-between">
+                                        <span>JavaScript / TypeScript</span>
+                                        <span class="text-muted skill-percentage">95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name d-flex justify-content-between">
+                                        <span>React / Next.js</span>
+                                        <span class="text-muted skill-percentage">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name d-flex justify-content-between">
+                                        <span>Node.js / Express</span>
+                                        <span class="text-muted skill-percentage">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name d-flex justify-content-between">
+                                        <span>Python / Django</span>
+                                        <span class="text-muted skill-percentage">80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="80"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name d-flex justify-content-between">
+                                        <span>PostgreSQL / MongoDB</span>
+                                        <span class="text-muted skill-percentage">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name d-flex justify-content-between">
+                                        <span>Docker / Kubernetes</span>
+                                        <span class="text-muted skill-percentage">75%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="75"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Idiomas -->
+                        <div class="card card-custom mb-4">
+                            <div class="card-body">
+                                <h4 class="section-title">Idiomas</h4>
+                                <div class="language-item">
+                                    <span>Español</span>
+                                    <span class="language-level">Nativo</span>
+                                </div>
+                                <div class="language-item">
+                                    <span>Inglés</span>
+                                    <span class="language-level">Avanzado (C1)</span>
+                                </div>
+                                <div class="language-item">
+                                    <span>Portugués</span>
+                                    <span class="language-level">Intermedio (B2)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Columna Derecha -->
+                    <div class="col-lg-8">
+                        <!-- Experiencia Laboral -->
+                        <div class="card card-custom mb-4">
+                            <div class="card-body">
+                                <h4 class="section-title">Experiencia Laboral</h4>
+                                <div class="experience-item">
+                                    <div class="d-flex justify-content-between align-items-start mb-2">
+                                        <div>
+                                            <h5 class="mb-1">Senior Full Stack Developer</h5>
+                                            <h6 class="text-primary mb-0">TechCorp Solutions</h6>
+                                        </div>
+                                        <span class="badge bg-primary rounded-pill">2022 - Presente</span>
+                                    </div>
+                                    <p class="text-muted mb-2">
+                                        Lidero el desarrollo de aplicaciones web escalables utilizando React, Node.js y AWS. 
+                                        Implementé microservicios que mejoraron el rendimiento en un 40%.
+                                    </p>
+                                    <div class="mb-2">
+                                        <span class="badge bg-light text-dark me-1">React</span>
+                                        <span class="badge bg-light text-dark me-1">Node.js</span>
+                                        <span class="badge bg-light text-dark me-1">AWS</span>
+                                        <span class="badge bg-light text-dark me-1">Docker</span>
+                                    </div>
+                                </div>
+
+                                <div class="experience-item">
+                                    <div class="d-flex justify-content-between align-items-start mb-2">
+                                        <div>
+                                            <h5 class="mb-1">Full Stack Developer</h5>
+                                            <h6 class="text-primary mb-0">StartupXYZ</h6>
+                                        </div>
+                                        <span class="badge bg-secondary rounded-pill">2020 - 2022</span>
+                                    </div>
+                                    <p class="text-muted mb-2">
+                                        Desarrollé la plataforma principal de la empresa desde cero, manejando tanto 
+                                        frontend como backend. Integré pasarelas de pago y sistemas de notificaciones.
+                                    </p>
+                                    <div class="mb-2">
+                                        <span class="badge bg-light text-dark me-1">Vue.js</span>
+                                        <span class="badge bg-light text-dark me-1">Python</span>
+                                        <span class="badge bg-light text-dark me-1">Django</span>
+                                        <span class="badge bg-light text-dark me-1">PostgreSQL</span>
+                                    </div>
+                                </div>
+
+                                <div class="experience-item">
+                                    <div class="d-flex justify-content-between align-items-start mb-2">
+                                        <div>
+                                            <h5 class="mb-1">Junior Frontend Developer</h5>
+                                            <h6 class="text-primary mb-0">WebAgency Pro</h6>
+                                        </div>
+                                        <span class="badge bg-secondary rounded-pill">2019 - 2020</span>
+                                    </div>
+                                    <p class="text-muted mb-2">
+                                        Colaboré en el desarrollo de sitios web corporativos y e-commerce. 
+                                        Optimicé el rendimiento web y implementé diseños responsive.
+                                    </p>
+                                    <div class="mb-2">
+                                        <span class="badge bg-light text-dark me-1">HTML/CSS</span>
+                                        <span class="badge bg-light text-dark me-1">JavaScript</span>
+                                        <span class="badge bg-light text-dark me-1">Bootstrap</span>
+                                        <span class="badge bg-light text-dark me-1">WordPress</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Educación -->
+                        <div class="card card-custom mb-4">
+                            <div class="card-body">
+                                <h4 class="section-title">Educación</h4>
+                                <div class="education-item">
+                                    <div class="d-flex justify-content-between align-items-start mb-2">
+                                        <div>
+                                            <h5 class="mb-1">Ingeniería de Sistemas</h5>
+                                            <h6 class="text-primary mb-0">Universidad Nacional de Colombia</h6>
+                                        </div>
+                                        <span class="badge bg-success rounded-pill">2015 - 2019</span>
+                                    </div>
+                                    <p class="text-muted mb-0">
+                                        Graduado con honores. Tesis sobre arquitecturas de microservicios.
+                                    </p>
+                                </div>
+
+                                <div class="education-item">
+                                    <div class="d-flex justify-content-between align-items-start mb-2">
+                                        <div>
+                                            <h5 class="mb-1">Certificación AWS Solutions Architect</h5>
+                                            <h6 class="text-primary mb-0">Amazon Web Services</h6>
+                                        </div>
+                                        <span class="badge bg-warning rounded-pill">2023</span>
+                                    </div>
+                                    <p class="text-muted mb-0">
+                                        Certificación en arquitecturas cloud y servicios de AWS.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proyectos Destacados -->
+                        <div class="card card-custom mb-4">
+                            <div class="card-body">
+                                <h4 class="section-title">Proyectos Destacados</h4>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="border rounded p-3 h-100">
+                                            <h6 class="fw-bold text-primary">E-commerce Platform</h6>
+                                            <p class="text-muted small mb-2">
+                                                Plataforma completa de e-commerce con panel administrativo, 
+                                                pasarela de pagos y sistema de inventario.
+                                            </p>
+                                            <div>
+                                                <span class="badge bg-light text-dark small me-1">React</span>
+                                                <span class="badge bg-light text-dark small me-1">Node.js</span>
+                                                <span class="badge bg-light text-dark small">Stripe</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="border rounded p-3 h-100">
+                                            <h6 class="fw-bold text-primary">Task Management App</h6>
+                                            <p class="text-muted small mb-2">
+                                                Aplicación de gestión de tareas colaborativa con tiempo real 
+                                                y notificaciones push.
+                                            </p>
+                                            <div>
+                                                <span class="badge bg-light text-dark small me-1">Vue.js</span>
+                                                <span class="badge bg-light text-dark small me-1">Socket.io</span>
+                                                <span class="badge bg-light text-dark small">MongoDB</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Redes Sociales -->
+                <div class="text-center mt-5">
+                    <h4 class="mb-4">Conéctate conmigo</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link linkedin" data-bs-toggle="tooltip" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link github" data-bs-toggle="tooltip" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link twitter" data-bs-toggle="tooltip" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link email" data-bs-toggle="tooltip" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botón de Imprimir -->
+    <button class="btn print-btn" onclick="window.print()" data-bs-toggle="tooltip" title="Imprimir CV">
+        <i class="fas fa-print me-2"></i>
+        Imprimir
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
